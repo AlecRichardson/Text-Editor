@@ -1,0 +1,86 @@
+body {
+    background-color: #404E5C !important;
+}
+#wrapperDiv {
+    width: 1208px !important;
+    margin: auto !important;
+    padding: 30px !important;
+    background-color: #B7C3F3 !important;
+}
+#inputDiv {
+    float: left !important;
+    margin: auto !important;
+    width: 40% !important;
+}
+textarea {
+    margin-right: 10px !important;
+    margin-bottom: 10px !important;
+    border: 2px solid slategray !important;
+    border-radius: 5px !important;
+    box-shadow: 5px 5px slategray !important;
+}
+textarea:active {
+    box-shadow: 5px 5px darkred !important;
+}
+.input {
+    display: block !important;
+    width: 100% !important;
+    height: 300px !important;
+    font-size: 24px !important;
+    resize: none !important;
+}
+#output {
+    float: right !important;
+    border: 2px solid slategray !important;
+    border-radius: 5px !important;
+    width: 600px !important;
+    height: 625px !important;
+    background-color: white !important;
+    overflow:scroll !important;
+    box-shadow: 5px 5px slategray !important;
+}
+#output:active {
+    box-shadow: 5px 5px darkred !important;
+}
+.buttons {
+    font-size: 32px !important;
+    
+    font-family: fantasy, sans-serif, arial !important;
+    width: 150px !important;
+    margin: 10px !important;
+    border: 1px solid slategray;
+    border-radius: 10px;
+    box-shadow: 5px 5px slategray !important;
+}
+.buttons:hover {
+    background-color: #CF1259 !important;
+}
+#toggleButton{
+    color: green;
+}
+#buttonDiv {
+    width: 100% !important;
+    text-align: center !important;
+}
+#head, #name{
+    padding: 5px !important;
+    text-align: center !important;
+    
+    font-family: fantasy, sans-serif, arial !important;
+    color: #0B5563 !important;
+    border: 2px solid white !important;
+    border-radius: 50px !important;
+    border-style:inset !important;
+    background-color: #22333B !important;
+    vertical-align:middle;
+}
+#name{
+    margin-left: 320px !important;
+    margin-right: 320px !important;
+}
+#wrapperDiv::after {
+    content: "" !important;
+    clear: both !important;
+    display: table !important;
+}
+
